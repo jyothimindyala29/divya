@@ -1,0 +1,140 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+    font-family: Arial, sans-serif;
+    background-color:aqua;
+    }
+    
+    header {
+    /* animation-name: frst; */
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color:blanchedalmond;
+    color: black;
+    text-align: center;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .dashboard {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    
+
+    
+    }
+    
+    
+    .widget {
+    background-color:chartreuse;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    height: 350px;
+    width: 250px;
+    line-height: 40px;
+    
+    flex: 1;
+    max-width: 300px;
+    animation-name: frst;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    }
+    .range{
+    display: flex;
+    }
+    
+    img{
+    height: 250px;
+    width: 250px;
+    
+    
+    }
+    .widget:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px black ;
+    }
+    
+    h2 {
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:hotpink;
+    text-align: center;
+    border-radius:10px;
+    
+    
+    
+    }
+    h2:hover{
+    text-shadow: 5px 5px 5px ;
+    box-shadow:5px 5px 5px maroon ;
+    }
+    
+    .widget p {
+    color: #666;
+    }
+    
+    footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    }
+    nav{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:pink;
+    height: 100vh;
+    width: 250px;
+    text-shadow: rosybrown;
+    line-height: 60px;
+    
+    
+    }
+    
+    a{
+    font-size: 30px;
+    
+    
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px lightgreen ;
+    }
+    a:hover{
+    color: darkcyan;
+    text-shadow: 5px 5px 5px darkcyan ;
+    }
+    svg{
+    margin-top: 20px;
+    
+    height: 50px;
+    width: 50px;
+    color: chocolate;
+    }
+    .value{
+        background-color: bisque;
+        height: 100px;
+        width: 200px;
+    }
+    .dashboard2{
+        position: relative;
+    }
+    
+    
+    
